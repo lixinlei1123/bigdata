@@ -7,9 +7,10 @@ import java.util.Calendar
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.types._
 
+//分析每个小时的上网次数
 object util {
 
-  //创建sparkSession
+  //创建sparkSession(other做预留其他特殊情况)
   def createSpark(appName:String,master:String,other:(String,String)*) = {
     SparkSession.builder()
       .master(Constant.MASTER)
@@ -21,7 +22,9 @@ object util {
   val typeMap = Map(
     ("String",StringType),
     ("Int",IntegerType),
-    ("Double",DoubleType)
+    ("Double",DoubleType),
+    ("Float",FloatType),
+    ("Long",LongType)
   )
   //封装schema
   def getSchema(args:String,titleType:List[String]=null) = {
@@ -51,6 +54,21 @@ object util {
       val minute = calender.get(Calendar.MINUTE)
       val time = calender.getTime.getTime
       (year,month,day,hour,minute,time)
+  }
+
+  def getSemester(userId:String,timeDate:(Int,Int,Int,Int,Int,Long)) = {
+    //学生入学年份
+    val year = userId.take(4).toInt
+    //上网的年份
+    val onlineYear = timeDate._1
+    //上网的月份
+    val onlineMonth = timeDate._2
+
+    //通过年份和月份计算出学期
+    var semester = (onlineYear - year) * 2
+    if (onlineMonth > 6) {
+      semester += 1
+    }
   }
 
 

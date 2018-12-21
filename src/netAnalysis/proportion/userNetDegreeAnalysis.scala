@@ -3,6 +3,7 @@ package netAnalysis.proportion
 import common.{Constant, util}
 import org.apache.spark.sql.{Row, SaveMode}
 
+//分析上网程度
 object userNetDegreeAnalysis {
 
   //最大熬夜时间
@@ -47,18 +48,8 @@ object userNetDegreeAnalysis {
     val onlineDuration = ((endTimeDate._6 - startTimeDate._6)/3600000.0)
     //把开始时间转成字符串格式，赋予变量 在线的年月
     val onlineYearMonth = startTimeDate._1.toString + startTimeDate._2.toString
-    //学生入学年份
-    val year = userId.take(4).toInt
-    //上网的年份
-    val onlineYear = startTimeDate._1
-    //上网的月份
-    val onlineMonth = startTimeDate._2
-
-    //通过年份和月份计算出学期
-    var semester = (onlineYear - year) * 2
-    if (onlineMonth > 6) {
-      semester += 1
-    }
+    //获得学期
+    val semester = util.getSemester(userId,startTimeDate)
 
     (userId+"#"+sex+"#"+onlineYearMonth+"#"+semester,(stayUpLateCount,onlineDuration.toInt))
   }
@@ -127,7 +118,7 @@ object userNetDegreeAnalysis {
           .mode(SaveMode.Overwrite)
           .csv(Constant.NETPATH + "userNetDegreeAnalysis")
 
-
+      spark.stop()
   }
 
 }

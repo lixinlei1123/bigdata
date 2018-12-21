@@ -51,6 +51,8 @@ object washData {
       .option("header","true")
       .mode(SaveMode.Overwrite)
       .csv(Constant.NETPATH + "washedNetData")
+
+    spark.stop()
   }
 
 }
