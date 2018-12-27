@@ -4,7 +4,8 @@ import java.io.{File, FileWriter}
 import java.text.SimpleDateFormat
 import java.util.Calendar
 
-import org.apache.spark.sql.SparkSession
+import org.apache.spark.rdd.RDD
+import org.apache.spark.sql.{DataFrame, Row, SaveMode, SparkSession}
 import org.apache.spark.sql.types._
 
 //分析每个小时的上网次数
@@ -29,7 +30,7 @@ object util {
   //封装schema
   def getSchema(args:String,titleType:List[String]=null) = {
       var fields:Array[StructField] = null
-      if(null == titleType && titleType.length == 0){
+      if(null == titleType || titleType.length == 0){
         fields = args.split(",").map(arg=>{
           StructField(arg, StringType, nullable = true)
         })
@@ -40,6 +41,23 @@ object util {
         })
       }
       StructType(fields)
+  }
+
+  //封装通过sparkSQL写文件方法
+  def writeFileByDF(spark:SparkSession,
+                    resRDD:RDD[Row],
+                    schemaInfo:(String,List[String]),
+                    savePath:String,
+                    saveMode:SaveMode=SaveMode.Overwrite,
+                    header:Boolean=true
+                   ) = {
+    //创建schema
+    val schema = getSchema(schemaInfo._1,schemaInfo._2)
+    //写入文件
+    spark.createDataFrame(resRDD,schema).write
+      .option("header",true)
+      .mode(SaveMode.Overwrite)
+      .csv(savePath)
   }
 
   //把字符串类型日期转成calender类型
@@ -71,6 +89,14 @@ object util {
     }
   }
 
+  //获取键值对的value值
+  def getValue(key:String,map:Map[String,Any]):Any = {
+    if (key == null || key == "") {
+      "0"
+    }else{
+      map(key)
+    }
+  }
 
   //能力值算法
   def normalize(minVal:Int,maxVal:Int,x:Int) : Float = {
@@ -87,6 +113,16 @@ object util {
     val fw = new FileWriter(file,true)
     fw.write(str)
     fw.close()
+  }
+
+  //将数据写入数据库
+  def writeDataByJDBC(df:DataFrame,db:String,table:String) = {
+    df.write.format("jdbc")
+      .option("url",s"jdbc:mysql://localhost:3306/${db}")
+      .option("dbtable",table)
+      .option("user","root")
+      .option("password","root")
+      .save()
   }
 
   //格式化日期，可能用不到。。。

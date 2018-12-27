@@ -124,13 +124,9 @@ object userNetPeakValueAnalysis{
     //转成能写入文件的形式
     .map(transformUserNetHourList)
 
-    //创建schema
-    val schema = util.getSchema(userNetHourAnalysisFileTitle,titleType.toList)
-    //通过数据rdd 和schema创建DF 并写入文件
-    spark.createDataFrame(hourCountsRdd,schema).write
-      .option("header","true")
-      .mode(SaveMode.Overwrite)
-      .csv(Constant.NETPATH + "userNetPeakValueAnalysis" )
+    //写入文件
+    util.writeFileByDF(spark,hourCountsRdd,(userNetHourAnalysisFileTitle,titleType.toList),
+      Constant.NETPATH + "userNetPeakValueAnalysis")
   }
 
 }

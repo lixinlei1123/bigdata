@@ -107,12 +107,10 @@ object userNetProportionAnalysis {
               Row(sex,onlineYearMonth,semester,duringTime,sortByAccu.value)
             })
 
-      //分别按不同性别的上网时间进行排序，生成相应schema并写入文件
-      val duringSortSchema = util.getSchema(userNetDuringSortTitle,duringSortTitleType)
-      spark.createDataFrame(duringTimeSortRdd,duringSortSchema).write
-        .option("header",true)
-        .mode(SaveMode.Overwrite)
-        .csv(Constant.NETPATH + "userNetDuringSortAnalysis")
+
+      //写入文件
+      util.writeFileByDF(spark,duringTimeSortRdd,(userNetDuringSortTitle,duringSortTitleType),
+        Constant.NETPATH + "userNetDuringSortAnalysis")
 
       spark.stop()
     }

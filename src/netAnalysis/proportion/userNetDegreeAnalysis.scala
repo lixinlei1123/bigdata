@@ -109,14 +109,11 @@ object userNetDegreeAnalysis {
       //最小在线时间
       minOnlineDuration = userNetList.map(_._4).min().toInt
       //计算上网程度
-      val lines = userNetList.map(transformNetDegree)
+      val linesRDD = userNetList.map(transformNetDegree)
 
-      val schema = util.getSchema(userNetDegreeTitle,titleType)
-
-      spark.createDataFrame(lines,schema).write
-          .option("header","true")
-          .mode(SaveMode.Overwrite)
-          .csv(Constant.NETPATH + "userNetDegreeAnalysis")
+      //写入文件
+      util.writeFileByDF(spark,linesRDD,(userNetDegreeTitle,titleType),
+        Constant.NETPATH + "userNetDegreeAnalysis")
 
       spark.stop()
   }

@@ -15,10 +15,12 @@ object washData {
     //从性别表中读数据
     val sexList = Source.fromFile(Constant.NETPATH + "sexDictFile.csv").getLines().toList
     //声明一个存放学号和性别的map
-    var sexMap = Map[String,String]().toBuffer
-    for(i <- sexList){
-      val info = i.toString.split(",").toList
-      sexMap += (info(0) -> info(1))
+    val sexMap = Map[String,String]().toBuffer
+    for(sex <- sexList){
+      val userIdAndSex = sex.split(",")
+      val key = userIdAndSex(0)
+      val value = userIdAndSex(1)
+      sexMap.append((key,value))
     }
     //返回封装好的不可变性别map
     sexMap.toMap
@@ -40,17 +42,14 @@ object washData {
               " from net where startTime<endTime and userId is not null " +
               "and startTime is not null and endTime is not null").rdd
     //把rdd里的每行数据转成Row类型
-    val result = filterNetRdd
+    val resultRDD = filterNetRdd
       .map(line =>
           Row(line(0),sexMap(line(0).toString),line(1),line(2))
       )
-    //调用封装好的方法创建schema
-    val schema = util.getSchema(washNetDataTitle)
-    //创建最终DataFrame写入文件
-    spark.createDataFrame(result,schema).write
-      .option("header","true")
-      .mode(SaveMode.Overwrite)
-      .csv(Constant.NETPATH + "washedNetData")
+
+    //写入文件
+    util.writeFileByDF(spark,resultRDD,(washNetDataTitle,null),
+      Constant.NETPATH + "washedNetData")
 
     spark.stop()
   }
