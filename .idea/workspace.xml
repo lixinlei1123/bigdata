@@ -2,45 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66b3b76e-478a-4f55-bb6c-5e42fd86ec4c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/consume/consume.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/consumeAddressCodeFile.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/consumeAddressTypeRelationFile.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/consumeTypeCodeFile.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/._SUCCESS.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/.part-00000-db9d4def-43e6-4be8-8ee0-4518203aead7.csv.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/_SUCCESS" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/part-00000-db9d4def-43e6-4be8-8ee0-4518203aead7.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/._SUCCESS.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/.part-00000-2610ce38-5371-42b8-94d6-cdbec04ed45f.csv.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/_SUCCESS" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/part-00000-2610ce38-5371-42b8-94d6-cdbec04ed45f.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/washedConsumeData/._SUCCESS.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/washedConsumeData/.part-00000-7457f038-5bad-4e26-b514-78823d9713a2.csv.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/washedConsumeData/_SUCCESS" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/washedConsumeData/part-00000-7457f038-5bad-4e26-b514-78823d9713a2.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/netClean/netClean-10.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/sexDictFile.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/._SUCCESS.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/.part-00000-a45638ae-5554-4f10-b8b1-cf9e87bbc165.csv.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/_SUCCESS" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/part-00000-a45638ae-5554-4f10-b8b1-cf9e87bbc165.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/._SUCCESS.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/.part-00000-75b7e317-4c74-41aa-b4f1-d05c21f84f8b.csv.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/_SUCCESS" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/part-00000-75b7e317-4c74-41aa-b4f1-d05c21f84f8b.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/._SUCCESS.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/.part-00000-ae6b09d8-c80f-4807-9a7d-9092164f8c79.csv.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/_SUCCESS" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/part-00000-ae6b09d8-c80f-4807-9a7d-9092164f8c79.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/._SUCCESS.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/.part-00000-01e71fcc-6ea1-450e-aea4-56942ed541e8.csv.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/_SUCCESS" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/part-00000-01e71fcc-6ea1-450e-aea4-56942ed541e8.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/washedNetData/._SUCCESS.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/washedNetData/.part-00000-958cb2cb-e142-4c80-9684-87dff7b87b02.csv.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/washedNetData/_SUCCESS" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/washedNetData/part-00000-958cb2cb-e142-4c80-9684-87dff7b87b02.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/consume/consume.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/consumeAddressCodeFile.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/consumeAddressTypeRelationFile.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/consumeTypeCodeFile.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/.part-00000-db9d4def-43e6-4be8-8ee0-4518203aead7.csv.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/part-00000-db9d4def-43e6-4be8-8ee0-4518203aead7.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/.part-00000-2610ce38-5371-42b8-94d6-cdbec04ed45f.csv.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/part-00000-2610ce38-5371-42b8-94d6-cdbec04ed45f.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/washedConsumeData/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/washedConsumeData/.part-00000-7457f038-5bad-4e26-b514-78823d9713a2.csv.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/washedConsumeData/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/washedConsumeData/part-00000-7457f038-5bad-4e26-b514-78823d9713a2.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/netClean/netClean-10.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/sexDictFile.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/.part-00000-a45638ae-5554-4f10-b8b1-cf9e87bbc165.csv.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/part-00000-a45638ae-5554-4f10-b8b1-cf9e87bbc165.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/.part-00000-75b7e317-4c74-41aa-b4f1-d05c21f84f8b.csv.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/part-00000-75b7e317-4c74-41aa-b4f1-d05c21f84f8b.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/.part-00000-ae6b09d8-c80f-4807-9a7d-9092164f8c79.csv.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/part-00000-ae6b09d8-c80f-4807-9a7d-9092164f8c79.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/.part-00000-01e71fcc-6ea1-450e-aea4-56942ed541e8.csv.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/part-00000-01e71fcc-6ea1-450e-aea4-56942ed541e8.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/washedNetData/._SUCCESS.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/washedNetData/.part-00000-958cb2cb-e142-4c80-9684-87dff7b87b02.csv.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/washedNetData/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/washedNetData/part-00000-958cb2cb-e142-4c80-9684-87dff7b87b02.csv" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/consume/consume.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/consume/consume.csv" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/consumeAddressCodeFile.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/consumeAddressCodeFile.csv" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/consumeAddressTypeRelationFile.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/consumeAddressTypeRelationFile.csv" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/consumeTypeCodeFile.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/consumeTypeCodeFile.csv" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/._SUCCESS.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/._SUCCESS.crc" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/.part-00000-db9d4def-43e6-4be8-8ee0-4518203aead7.csv.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/.part-00000-db9d4def-43e6-4be8-8ee0-4518203aead7.csv.crc" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/_SUCCESS" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/_SUCCESS" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/part-00000-db9d4def-43e6-4be8-8ee0-4518203aead7.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/part-00000-db9d4def-43e6-4be8-8ee0-4518203aead7.csv" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/._SUCCESS.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/._SUCCESS.crc" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/.part-00000-2610ce38-5371-42b8-94d6-cdbec04ed45f.csv.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/.part-00000-2610ce38-5371-42b8-94d6-cdbec04ed45f.csv.crc" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/_SUCCESS" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/_SUCCESS" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/part-00000-2610ce38-5371-42b8-94d6-cdbec04ed45f.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/part-00000-2610ce38-5371-42b8-94d6-cdbec04ed45f.csv" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/washedConsumeData/._SUCCESS.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/washedConsumeData/._SUCCESS.crc" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/washedConsumeData/.part-00000-7457f038-5bad-4e26-b514-78823d9713a2.csv.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/washedConsumeData/.part-00000-7457f038-5bad-4e26-b514-78823d9713a2.csv.crc" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/washedConsumeData/_SUCCESS" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/washedConsumeData/_SUCCESS" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/washedConsumeData/part-00000-7457f038-5bad-4e26-b514-78823d9713a2.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/washedConsumeData/part-00000-7457f038-5bad-4e26-b514-78823d9713a2.csv" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/netClean/netClean-10.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/netClean/netClean-10.csv" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/sexDictFile.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/sexDictFile.csv" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/._SUCCESS.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/._SUCCESS.crc" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/.part-00000-a45638ae-5554-4f10-b8b1-cf9e87bbc165.csv.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/.part-00000-a45638ae-5554-4f10-b8b1-cf9e87bbc165.csv.crc" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/_SUCCESS" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/_SUCCESS" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/part-00000-a45638ae-5554-4f10-b8b1-cf9e87bbc165.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/part-00000-a45638ae-5554-4f10-b8b1-cf9e87bbc165.csv" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/._SUCCESS.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/._SUCCESS.crc" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/.part-00000-75b7e317-4c74-41aa-b4f1-d05c21f84f8b.csv.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/.part-00000-75b7e317-4c74-41aa-b4f1-d05c21f84f8b.csv.crc" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/_SUCCESS" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/_SUCCESS" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/part-00000-75b7e317-4c74-41aa-b4f1-d05c21f84f8b.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/part-00000-75b7e317-4c74-41aa-b4f1-d05c21f84f8b.csv" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/._SUCCESS.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/._SUCCESS.crc" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/.part-00000-ae6b09d8-c80f-4807-9a7d-9092164f8c79.csv.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/.part-00000-ae6b09d8-c80f-4807-9a7d-9092164f8c79.csv.crc" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/_SUCCESS" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/_SUCCESS" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/part-00000-ae6b09d8-c80f-4807-9a7d-9092164f8c79.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/part-00000-ae6b09d8-c80f-4807-9a7d-9092164f8c79.csv" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/._SUCCESS.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/._SUCCESS.crc" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/.part-00000-01e71fcc-6ea1-450e-aea4-56942ed541e8.csv.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/.part-00000-01e71fcc-6ea1-450e-aea4-56942ed541e8.csv.crc" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/_SUCCESS" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/_SUCCESS" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/part-00000-01e71fcc-6ea1-450e-aea4-56942ed541e8.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/part-00000-01e71fcc-6ea1-450e-aea4-56942ed541e8.csv" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/washedNetData/._SUCCESS.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/washedNetData/._SUCCESS.crc" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/washedNetData/.part-00000-958cb2cb-e142-4c80-9684-87dff7b87b02.csv.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/washedNetData/.part-00000-958cb2cb-e142-4c80-9684-87dff7b87b02.csv.crc" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/washedNetData/_SUCCESS" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/washedNetData/_SUCCESS" />
+      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/washedNetData/part-00000-958cb2cb-e142-4c80-9684-87dff7b87b02.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/washedNetData/part-00000-958cb2cb-e142-4c80-9684-87dff7b87b02.csv" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,7 +145,7 @@
         </entry>
       </file>
       <file leaf-file-name="netClean-10.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/netClean/netClean-10.csv">
+        <entry file="file://$PROJECT_DIR$/studentAnalysis数据/netAnalysis/netClean/netClean-10.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -287,27 +325,6 @@
               <item name="netAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="wash" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="studentBehaviouralAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studentBehaviouralAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="studentAnalysis数据" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studentBehaviouralAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studentBehaviouralAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="studentAnalysis数据" type="462c0819:PsiDirectoryNode" />
-              <item name="consumeAnalysis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studentBehaviouralAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studentBehaviouralAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="studentAnalysis数据" type="462c0819:PsiDirectoryNode" />
-              <item name="consumeAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="consume" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -333,8 +350,8 @@
       <recent name="netAnalysis.proportion" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\software\idea\workspace\studentBehaviouralAnalysis\src" />
       <recent name="D:\software\idea\workspace\studentBehaviouralAnalysis" />
+      <recent name="D:\software\idea\workspace\studentBehaviouralAnalysis\src" />
       <recent name="D:\software\idea\workspace\studentBehaviouralAnalysis\src\file" />
       <recent name="D:\software\idea\workspace\studentBehaviouralAnalysis\src\netAnalysis" />
     </key>
@@ -583,7 +600,7 @@
       <workItem from="1545636261828" duration="995000" />
       <workItem from="1545720576348" duration="4147000" />
       <workItem from="1545785099075" duration="21283000" />
-      <workItem from="1545870911363" duration="7860000" />
+      <workItem from="1545870911363" duration="7910000" />
     </task>
     <task id="LOCAL-00001" summary="大学生行为分析系统">
       <created>1545286360570</created>
@@ -620,11 +637,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545879409025</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="大学生行为分析系统">
+      <created>1545879756077</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1545879756077</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119280000" />
+    <option name="totallyTimeSpent" value="119330000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,6 +661,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="13" width="1288" height="685" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -652,7 +677,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3655303" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28257328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28257328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -716,13 +741,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/netAnalysis/peakValue/userNetPeakValueAnalysis.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2668">
-          <caret line="116" column="44" lean-forward="false" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/util.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1426">
@@ -1082,6 +1100,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/netClean/netClean-10.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentAnalysis数据/netAnalysis/netClean/netClean-10.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
