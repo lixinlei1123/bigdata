@@ -44,7 +44,7 @@ object util {
   }
 
   //封装通过sparkSQL写文件方法
-  def writeFileByDF(spark:SparkSession,
+  def writeFileByRDD(spark:SparkSession,
                     resRDD:RDD[Row],
                     schemaInfo:(String,List[String]),
                     savePath:String,
@@ -56,8 +56,20 @@ object util {
     //写入文件
     spark.createDataFrame(resRDD,schema).write
       .option("header",true)
-      .mode(SaveMode.Overwrite)
+      .mode(saveMode)
       .csv(savePath)
+  }
+
+  //封装通过sparkSQL写文件方法
+  def writeFileByDF(df:DataFrame,
+                    savePath:String,
+                    saveMode:SaveMode=SaveMode.Overwrite,
+                    header:Boolean=true) = {
+      //写入文件
+      df.write
+        .option("header",true)
+        .mode(saveMode)
+        .csv(savePath)
   }
 
   //把字符串类型日期转成calender类型

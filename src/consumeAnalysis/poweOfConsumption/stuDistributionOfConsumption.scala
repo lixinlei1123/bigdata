@@ -40,7 +40,7 @@ object stuDistributionOfConsumption {
           Row(consumeYearMonth,consumeLevel,totleStudent,totleMoney,avgMoney)
       })
 
-      util.writeFileByDF(spark,resultRDD,(title,titleType),
+      util.writeFileByRDD(spark,resultRDD,(title,titleType),
         Constant.CONSUMEPATH + "stuDistributionOfConsumption")
 
       spark.stop()

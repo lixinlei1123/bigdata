@@ -112,7 +112,7 @@ object userNetDegreeAnalysis {
       val linesRDD = userNetList.map(transformNetDegree)
 
       //写入文件
-      util.writeFileByDF(spark,linesRDD,(userNetDegreeTitle,titleType),
+      util.writeFileByRDD(spark,linesRDD,(userNetDegreeTitle,titleType),
         Constant.NETPATH + "userNetDegreeAnalysis")
 
       spark.stop()

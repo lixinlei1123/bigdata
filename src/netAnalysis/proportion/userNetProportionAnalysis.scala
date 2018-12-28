@@ -109,7 +109,7 @@ object userNetProportionAnalysis {
 
 
       //写入文件
-      util.writeFileByDF(spark,duringTimeSortRdd,(userNetDuringSortTitle,duringSortTitleType),
+      util.writeFileByRDD(spark,duringTimeSortRdd,(userNetDuringSortTitle,duringSortTitleType),
         Constant.NETPATH + "userNetDuringSortAnalysis")
 
       spark.stop()

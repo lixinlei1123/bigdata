@@ -2,83 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66b3b76e-478a-4f55-bb6c-5e42fd86ec4c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/consume/consume.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/consumeAddressCodeFile.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/consumeAddressTypeRelationFile.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/consumeTypeCodeFile.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/._SUCCESS.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/.part-00000-db9d4def-43e6-4be8-8ee0-4518203aead7.csv.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/_SUCCESS" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/part-00000-db9d4def-43e6-4be8-8ee0-4518203aead7.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/._SUCCESS.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/.part-00000-2610ce38-5371-42b8-94d6-cdbec04ed45f.csv.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/_SUCCESS" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/part-00000-2610ce38-5371-42b8-94d6-cdbec04ed45f.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/washedConsumeData/._SUCCESS.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/washedConsumeData/.part-00000-7457f038-5bad-4e26-b514-78823d9713a2.csv.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/washedConsumeData/_SUCCESS" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/washedConsumeData/part-00000-7457f038-5bad-4e26-b514-78823d9713a2.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/netClean/netClean-10.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/sexDictFile.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/._SUCCESS.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/.part-00000-a45638ae-5554-4f10-b8b1-cf9e87bbc165.csv.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/_SUCCESS" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/part-00000-a45638ae-5554-4f10-b8b1-cf9e87bbc165.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/._SUCCESS.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/.part-00000-75b7e317-4c74-41aa-b4f1-d05c21f84f8b.csv.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/_SUCCESS" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/part-00000-75b7e317-4c74-41aa-b4f1-d05c21f84f8b.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/._SUCCESS.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/.part-00000-ae6b09d8-c80f-4807-9a7d-9092164f8c79.csv.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/_SUCCESS" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/part-00000-ae6b09d8-c80f-4807-9a7d-9092164f8c79.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/._SUCCESS.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/.part-00000-01e71fcc-6ea1-450e-aea4-56942ed541e8.csv.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/_SUCCESS" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/part-00000-01e71fcc-6ea1-450e-aea4-56942ed541e8.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/washedNetData/._SUCCESS.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/washedNetData/.part-00000-958cb2cb-e142-4c80-9684-87dff7b87b02.csv.crc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/washedNetData/_SUCCESS" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/washedNetData/part-00000-958cb2cb-e142-4c80-9684-87dff7b87b02.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/consumeAnalysis/stuConsumeAddressRank/stuConsumeAddressRank.scala" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/consume/consume.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/consume/consume.csv" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/consumeAddressCodeFile.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/consumeAddressCodeFile.csv" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/consumeAddressTypeRelationFile.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/consumeAddressTypeRelationFile.csv" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/consumeTypeCodeFile.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/consumeTypeCodeFile.csv" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/._SUCCESS.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/._SUCCESS.crc" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/.part-00000-db9d4def-43e6-4be8-8ee0-4518203aead7.csv.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/.part-00000-db9d4def-43e6-4be8-8ee0-4518203aead7.csv.crc" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/_SUCCESS" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/_SUCCESS" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/part-00000-db9d4def-43e6-4be8-8ee0-4518203aead7.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuDistributionOfConsumption/part-00000-db9d4def-43e6-4be8-8ee0-4518203aead7.csv" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/._SUCCESS.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/._SUCCESS.crc" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/.part-00000-2610ce38-5371-42b8-94d6-cdbec04ed45f.csv.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/.part-00000-2610ce38-5371-42b8-94d6-cdbec04ed45f.csv.crc" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/_SUCCESS" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/_SUCCESS" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/part-00000-2610ce38-5371-42b8-94d6-cdbec04ed45f.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/stuPowerOfConsumption/part-00000-2610ce38-5371-42b8-94d6-cdbec04ed45f.csv" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/washedConsumeData/._SUCCESS.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/washedConsumeData/._SUCCESS.crc" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/washedConsumeData/.part-00000-7457f038-5bad-4e26-b514-78823d9713a2.csv.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/washedConsumeData/.part-00000-7457f038-5bad-4e26-b514-78823d9713a2.csv.crc" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/washedConsumeData/_SUCCESS" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/washedConsumeData/_SUCCESS" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/consumeAnalysis/washedConsumeData/part-00000-7457f038-5bad-4e26-b514-78823d9713a2.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/consumeAnalysis/washedConsumeData/part-00000-7457f038-5bad-4e26-b514-78823d9713a2.csv" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/netClean/netClean-10.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/netClean/netClean-10.csv" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/sexDictFile.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/sexDictFile.csv" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/._SUCCESS.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/._SUCCESS.crc" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/.part-00000-a45638ae-5554-4f10-b8b1-cf9e87bbc165.csv.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/.part-00000-a45638ae-5554-4f10-b8b1-cf9e87bbc165.csv.crc" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/_SUCCESS" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/_SUCCESS" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/part-00000-a45638ae-5554-4f10-b8b1-cf9e87bbc165.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDegreeAnalysis/part-00000-a45638ae-5554-4f10-b8b1-cf9e87bbc165.csv" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/._SUCCESS.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/._SUCCESS.crc" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/.part-00000-75b7e317-4c74-41aa-b4f1-d05c21f84f8b.csv.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/.part-00000-75b7e317-4c74-41aa-b4f1-d05c21f84f8b.csv.crc" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/_SUCCESS" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/_SUCCESS" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/part-00000-75b7e317-4c74-41aa-b4f1-d05c21f84f8b.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetDuringSortAnalysis/part-00000-75b7e317-4c74-41aa-b4f1-d05c21f84f8b.csv" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/._SUCCESS.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/._SUCCESS.crc" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/.part-00000-ae6b09d8-c80f-4807-9a7d-9092164f8c79.csv.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/.part-00000-ae6b09d8-c80f-4807-9a7d-9092164f8c79.csv.crc" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/_SUCCESS" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/_SUCCESS" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/part-00000-ae6b09d8-c80f-4807-9a7d-9092164f8c79.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetPeakValueAnalysis/part-00000-ae6b09d8-c80f-4807-9a7d-9092164f8c79.csv" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/._SUCCESS.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/._SUCCESS.crc" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/.part-00000-01e71fcc-6ea1-450e-aea4-56942ed541e8.csv.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/.part-00000-01e71fcc-6ea1-450e-aea4-56942ed541e8.csv.crc" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/_SUCCESS" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/_SUCCESS" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/part-00000-01e71fcc-6ea1-450e-aea4-56942ed541e8.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/userNetProportionAnalysis/part-00000-01e71fcc-6ea1-450e-aea4-56942ed541e8.csv" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/washedNetData/._SUCCESS.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/washedNetData/._SUCCESS.crc" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/washedNetData/.part-00000-958cb2cb-e142-4c80-9684-87dff7b87b02.csv.crc" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/washedNetData/.part-00000-958cb2cb-e142-4c80-9684-87dff7b87b02.csv.crc" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/washedNetData/_SUCCESS" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/washedNetData/_SUCCESS" />
-      <change beforePath="$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/washedNetData/part-00000-958cb2cb-e142-4c80-9684-87dff7b87b02.csv" afterPath="$PROJECT_DIR$/studentAnalysis数据/netAnalysis/washedNetData/part-00000-958cb2cb-e142-4c80-9684-87dff7b87b02.csv" />
+      <change beforePath="$PROJECT_DIR$/src/common/util.scala" afterPath="$PROJECT_DIR$/src/common/util.scala" />
+      <change beforePath="$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuDistributionOfConsumption.scala" afterPath="$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuDistributionOfConsumption.scala" />
+      <change beforePath="$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuPowerOfConsumption.scala" afterPath="$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuPowerOfConsumption.scala" />
+      <change beforePath="$PROJECT_DIR$/src/consumeAnalysis/wash/washData.scala" afterPath="$PROJECT_DIR$/src/consumeAnalysis/wash/washData.scala" />
+      <change beforePath="$PROJECT_DIR$/src/netAnalysis/peakValue/userNetPeakValueAnalysis.scala" afterPath="$PROJECT_DIR$/src/netAnalysis/peakValue/userNetPeakValueAnalysis.scala" />
+      <change beforePath="$PROJECT_DIR$/src/netAnalysis/proportion/userNetDegreeAnalysis.scala" afterPath="$PROJECT_DIR$/src/netAnalysis/proportion/userNetDegreeAnalysis.scala" />
+      <change beforePath="$PROJECT_DIR$/src/netAnalysis/proportion/userNetProportionAnalysis.scala" afterPath="$PROJECT_DIR$/src/netAnalysis/proportion/userNetProportionAnalysis.scala" />
+      <change beforePath="$PROJECT_DIR$/src/netAnalysis/wash/washData.scala" afterPath="$PROJECT_DIR$/src/netAnalysis/wash/washData.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,97 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="washData.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/wash/washData.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="82" column="10" lean-forward="false" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="stuPowerOfConsumption.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuPowerOfConsumption.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-              <folding>
-                <element signature="e#43#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userNetProportionAnalysis.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/netAnalysis/proportion/userNetProportionAnalysis.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="110" column="6" lean-forward="false" selection-start-line="110" selection-start-column="6" selection-end-line="112" selection-end-column="55" />
+            <state relative-caret-position="22">
+              <caret line="72" column="23" lean-forward="true" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="washData.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/netAnalysis/wash/washData.scala">
+      <file leaf-file-name="stuConsumeAddressRank.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/stuConsumeAddressRank/stuConsumeAddressRank.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stuDistributionOfConsumption.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuDistributionOfConsumption.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-              <folding>
-                <element signature="e#43#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="netClean-10.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/studentAnalysis数据/netAnalysis/netClean/netClean-10.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userNetDegreeAnalysis.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/netAnalysis/proportion/userNetDegreeAnalysis.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="113" column="6" lean-forward="false" selection-start-line="113" selection-start-column="6" selection-end-line="115" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="util.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/util.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-              <folding>
-                <element signature="e#16#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userNetPeakValueAnalysis.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/netAnalysis/peakValue/userNetPeakValueAnalysis.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="126" column="4" lean-forward="false" selection-start-line="126" selection-start-column="4" selection-end-line="128" selection-end-column="52" />
+            <state relative-caret-position="86">
+              <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -192,6 +49,7 @@
     <findStrings>
       <find>imAddressCodeMap</find>
       <find>getId</find>
+      <find>map</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -221,14 +79,17 @@
         <option value="$PROJECT_DIR$/src/netAnalysis/userNetProportionAnalysis.scala" />
         <option value="$PROJECT_DIR$/src/consumeAnalysis/washData.scala" />
         <option value="$PROJECT_DIR$/src/common/Constant.scala" />
-        <option value="$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuPowerOfConsumption.scala" />
+        <option value="$PROJECT_DIR$/src/consumeAnalysis/stuPowerOfConsumption1.scala" />
+        <option value="$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuPowerOfConsumption1.scala" />
+        <option value="$PROJECT_DIR$/src/common/util.scala" />
+        <option value="$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuDistributionOfConsumption.scala" />
+        <option value="$PROJECT_DIR$/src/consumeAnalysis/wash/washData.scala" />
         <option value="$PROJECT_DIR$/src/netAnalysis/peakValue/userNetPeakValueAnalysis.scala" />
         <option value="$PROJECT_DIR$/src/netAnalysis/proportion/userNetDegreeAnalysis.scala" />
         <option value="$PROJECT_DIR$/src/netAnalysis/proportion/userNetProportionAnalysis.scala" />
         <option value="$PROJECT_DIR$/src/netAnalysis/wash/washData.scala" />
-        <option value="$PROJECT_DIR$/src/common/util.scala" />
-        <option value="$PROJECT_DIR$/src/consumeAnalysis/wash/washData.scala" />
-        <option value="$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuDistributionOfConsumption.scala" />
+        <option value="$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuPowerOfConsumption.scala" />
+        <option value="$PROJECT_DIR$/src/consumeAnalysis/stuConsumeAddressRank/stuConsumeAddressRank.scala" />
       </list>
     </option>
   </component>
@@ -238,7 +99,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="55" />
     <option name="y" value="13" />
     <option name="width" value="1288" />
@@ -296,6 +157,13 @@
               <item name="studentBehaviouralAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="consumeAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="stuConsumeAddressRank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studentBehaviouralAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studentBehaviouralAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="consumeAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="wash" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -329,10 +197,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,10 +218,11 @@
       <recent name="netAnalysis.proportion" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\software\idea\workspace\studentBehaviouralAnalysis\src\consumeAnalysis\poweOfConsumption" />
+      <recent name="D:\software\idea\workspace\studentBehaviouralAnalysis\src\consumeAnalysis" />
       <recent name="D:\software\idea\workspace\studentBehaviouralAnalysis" />
       <recent name="D:\software\idea\workspace\studentBehaviouralAnalysis\src" />
       <recent name="D:\software\idea\workspace\studentBehaviouralAnalysis\src\file" />
-      <recent name="D:\software\idea\workspace\studentBehaviouralAnalysis\src\netAnalysis" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -368,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.stuDistributionOfConsumption">
+  <component name="RunManager" selected="Application.stuPowerOfConsumption">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -554,8 +423,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.stuDistributionOfConsumption" />
-        <item index="1" class="java.lang.String" itemvalue="Application.stuPowerOfConsumption" />
+        <item index="0" class="java.lang.String" itemvalue="Application.stuPowerOfConsumption" />
+        <item index="1" class="java.lang.String" itemvalue="Application.stuDistributionOfConsumption" />
         <item index="2" class="java.lang.String" itemvalue="Application.washData" />
         <item index="3" class="java.lang.String" itemvalue="Application.userNetProportionAnalysis (1)" />
         <item index="4" class="java.lang.String" itemvalue="Application.userNetProportionAnalysis" />
@@ -600,7 +469,8 @@
       <workItem from="1545636261828" duration="995000" />
       <workItem from="1545720576348" duration="4147000" />
       <workItem from="1545785099075" duration="21283000" />
-      <workItem from="1545870911363" duration="7910000" />
+      <workItem from="1545870911363" duration="9041000" />
+      <workItem from="1545957158883" duration="10134000" />
     </task>
     <task id="LOCAL-00001" summary="大学生行为分析系统">
       <created>1545286360570</created>
@@ -644,11 +514,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545879756077</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="大学生行为分析系统">
+      <created>1545879808495</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545879808495</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119330000" />
+    <option name="totallyTimeSpent" value="130595000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -660,12 +537,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="13" width="1288" height="685" extended-state="0" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20613287" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20493828" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -673,11 +550,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14310052" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3655303" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.53333336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3655303" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28257328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27321815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -709,16 +586,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20613287" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20493828" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35264054" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2624811" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19753087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3655303" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27321815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -741,30 +618,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/common/util.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1426">
-          <caret line="62" column="3" lean-forward="false" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/Constant.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/netAnalysis/proportion/userNetDegreeAnalysis.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1932">
-          <caret line="84" column="6" lean-forward="false" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/netAnalysis/wash/washData.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
@@ -777,7 +630,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="e#16#49#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -815,7 +670,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1040">
           <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#16#49#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -839,7 +696,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#16#49#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1013,104 +872,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/netAnalysis/peakValue/userNetPeakValueAnalysis.scala">
+    <entry file="file://$PROJECT_DIR$/src/studentAnalysis/netAnalysis/netClean/netClean-10.csv" />
+    <entry file="file://$PROJECT_DIR$/studentAnalysis/netAnalysis/netClean/netClean-10.csv" />
+    <entry file="file://$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/netClean/netClean-10.csv" />
+    <entry file="file://$PROJECT_DIR$/studentAnalysis数据/netAnalysis/netClean/netClean-10.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="126" column="4" lean-forward="false" selection-start-line="126" selection-start-column="4" selection-end-line="128" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/netAnalysis/proportion/userNetDegreeAnalysis.scala">
+    <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/stuPowerOfConsumption1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="113" column="6" lean-forward="false" selection-start-line="113" selection-start-column="6" selection-end-line="115" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/util.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-          <folding>
-            <element signature="e#16#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/wash/washData.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="82" column="10" lean-forward="false" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/netAnalysis/wash/washData.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/netAnalysis/proportion/userNetProportionAnalysis.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="110" column="6" lean-forward="false" selection-start-line="110" selection-start-column="6" selection-end-line="112" selection-end-column="55" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuPowerOfConsumption.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="41" />
           <folding>
-            <element signature="e#43#73#0" expanded="true" />
+            <element signature="e#43#73#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/studentAnalysis/netAnalysis/netClean/netClean-10.csv">
+    <entry file="file://$PROJECT_DIR$/src/common/util.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studentAnalysis/netAnalysis/netClean/netClean-10.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="221">
+          <caret line="58" column="20" lean-forward="false" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+          <folding>
+            <element signature="e#16#49#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuDistributionOfConsumption.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding>
-            <element signature="e#43#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/studentAnalysis数据/netAnalysis/netClean/netClean-10.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="157">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/studentAnalysis数据/netAnalysis/netClean/netClean-10.csv">
+    <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/wash/washData.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="241">
+          <caret line="83" column="24" lean-forward="false" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/netAnalysis/peakValue/userNetPeakValueAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/netAnalysis/proportion/userNetDegreeAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="114" column="26" lean-forward="false" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/netAnalysis/proportion/userNetProportionAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="111" column="26" lean-forward="false" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/netAnalysis/wash/washData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuPowerOfConsumption.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="72" column="23" lean-forward="true" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/stuConsumeAddressRank/stuConsumeAddressRank.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
           <folding />
         </state>
       </provider>

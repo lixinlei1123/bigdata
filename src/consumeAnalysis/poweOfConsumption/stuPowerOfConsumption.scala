@@ -24,12 +24,12 @@ object stuPowerOfConsumption {
     def getLineData(line:Row) = {
           val userId = line(0).toString
           val sex = line(1).toString
-          val consumeYearMonth = line(2).toString
-          val consumeCount = line(3).toString.toInt
-          val canteenTotleMoney = line(4).toString.toDouble
-          val superMarketTotleMoney = line(5).toString.toDouble
-          val hospitalTotleMoney = line(6).toString.toDouble
-          val showerRoomTotleMoney = line(7).toString.toDouble
+          val consumeYearMonth = line(3).toString
+          val consumeCount = line(4).toString.toInt
+          val canteenTotleMoney = line(5).toString.toDouble
+          val superMarketTotleMoney = line(6).toString.toDouble
+          val hospitalTotleMoney = line(7).toString.toDouble
+          val showerRoomTotleMoney = line(8).toString.toDouble
 
           (userId+"#"+sex+"#"+consumeYearMonth,(consumeCount,canteenTotleMoney,superMarketTotleMoney,hospitalTotleMoney,showerRoomTotleMoney))
 
@@ -48,29 +48,35 @@ object stuPowerOfConsumption {
         //创建临时表
         consumeDataDF.createOrReplaceTempView("washedConsume")
         //食堂消费统计DataFrame
-        val canteeDF = spark.sql("select userId,first(sex) as sex,first(consumeYearMonth) as consumeYearMonth," +
+        val canteeDF = spark.sql("select userId,first(sex) as sex,first(consumeType) as consumeType," +
+            "first(consumeYearMonth) as consumeYearMonth," +
             "count(*) as consumeCount,sum(money) as canteenTotleMoney,0 as superMarketTotleMoney, " +
             " 0 as hospitalTotleMoney,0 as showerRoomTotleMoney " +
             " from washedConsume where consumeType='1' group by userId")
         //超市消费统计DataFrame
-        val superMarketDF = spark.sql("select userId,first(sex) as sex,first(consumeYearMonth) as consumeYearMonth," +
+        val superMarketDF = spark.sql("select userId,first(sex) as sex,first(consumeType) as consumeType," +
+          "first(consumeYearMonth) as consumeYearMonth," +
           "count(*) as consumeCount,0 as canteenTotleMoney,sum(money) as superMarketTotleMoney, " +
           " 0 as hospitalTotleMoney,0 as showerRoomTotleMoney " +
           " from washedConsume where consumeType='2' group by userId")
         //医院消费统计DataFrame
-        val hospitaltDF = spark.sql("select userId,first(sex) as sex,first(consumeYearMonth) as consumeYearMonth," +
+        val hospitaltDF = spark.sql("select userId,first(sex) as sex,first(consumeType) as consumeType," +
+          "first(consumeYearMonth) as consumeYearMonth," +
           "count(*) as consumeCount,0 as canteenTotleMoney,0 as superMarketTotleMoney, " +
           " sum(money) as hospitalTotleMoney,0 as showerRoomTotleMoney " +
           " from washedConsume where consumeType='3' group by userId")
         //浴室消费统计DataFrame
-        val showerRoomDF = spark.sql("select userId,first(sex) as sex,first(consumeYearMonth) as consumeYearMonth," +
+        val showerRoomDF = spark.sql("select userId,first(sex) as sex,first(consumeType) as consumeType," +
+          "first(consumeYearMonth) as consumeYearMonth," +
           "count(*) as consumeCount,0 as canteenTotleMoney,0 as superMarketTotleMoney, " +
           " 0 as hospitalTotleMoney,sum(money) as showerRoomTotleMoney " +
           " from washedConsume where consumeType='4' group by userId")
         //把所有消费类型数据整合
-        val consumeDataRDD = canteeDF.union(superMarketDF).union(hospitaltDF).union(showerRoomDF).rdd
+        val consumeDataAllDF = canteeDF.union(superMarketDF).union(hospitaltDF).union(showerRoomDF).coalesce(1)
+        //把当前按消费类型和学生id统计的数据写入文件
+        util.writeFileByDF(consumeDataAllDF,Constant.CONSUMEPATH + "stuFilteredConsumeData")
         //通过reduceByKey算出每个学生的消费总次数，4种消费类型分别的总金额
-        val stuConsumeTypeRDD = consumeDataRDD.map(getLineData)
+        val stuConsumeTypeRDD = consumeDataAllDF.rdd.map(getLineData)
             .reduceByKey((x,y)=>{
                 (x._1+y._1,x._2+y._2,x._3+y._3,x._4+y._4,x._5+y._5)
             })
@@ -101,10 +107,10 @@ object stuPowerOfConsumption {
               Row.fromSeq(seq)
             })
           //把分区强制改为1(可改可不改)
-          .coalesce(1)
+//          .coalesce(1)
 
         //写入文件
-        util.writeFileByDF(spark,resultRDD,(stuConsumeTypeTitle,stuConsumeTypeTitleType)
+        util.writeFileByRDD(spark,resultRDD,(stuConsumeTypeTitle,stuConsumeTypeTitleType)
           ,Constant.CONSUMEPATH + "stuPowerOfConsumption")
 
         spark.stop()

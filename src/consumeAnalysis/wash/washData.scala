@@ -81,7 +81,7 @@ object washData {
     .map(transformDataList)
 
     //写入文件
-    util.writeFileByDF(spark,resultRDD,(consumeWashFile,consumeWashFileTitleType),
+    util.writeFileByRDD(spark,resultRDD,(consumeWashFile,consumeWashFileTitleType),
       Constant.CONSUMEPATH + "washedConsumeData")
 
     spark.stop()

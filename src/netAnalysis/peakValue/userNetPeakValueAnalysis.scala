@@ -125,7 +125,7 @@ object userNetPeakValueAnalysis{
     .map(transformUserNetHourList)
 
     //写入文件
-    util.writeFileByDF(spark,hourCountsRdd,(userNetHourAnalysisFileTitle,titleType.toList),
+    util.writeFileByRDD(spark,hourCountsRdd,(userNetHourAnalysisFileTitle,titleType.toList),
       Constant.NETPATH + "userNetPeakValueAnalysis")
   }
 

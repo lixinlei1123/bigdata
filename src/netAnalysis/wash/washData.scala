@@ -48,7 +48,7 @@ object washData {
       )
 
     //写入文件
-    util.writeFileByDF(spark,resultRDD,(washNetDataTitle,null),
+    util.writeFileByRDD(spark,resultRDD,(washNetDataTitle,null),
       Constant.NETPATH + "washedNetData")
 
     spark.stop()
