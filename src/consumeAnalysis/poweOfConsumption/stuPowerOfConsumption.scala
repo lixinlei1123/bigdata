@@ -73,7 +73,7 @@ object stuPowerOfConsumption {
           " from washedConsume where consumeType='4' group by userId")
         //把所有消费类型数据整合
         val consumeDataAllDF = canteeDF.union(superMarketDF).union(hospitaltDF).union(showerRoomDF).coalesce(1)
-        //把当前按消费类型和学生id统计的数据写入文件
+        //把当前按消费类型和学生id统计的数据写入文件，方便其他功能使用
         util.writeFileByDF(consumeDataAllDF,Constant.CONSUMEPATH + "stuFilteredConsumeData")
         //通过reduceByKey算出每个学生的消费总次数，4种消费类型分别的总金额
         val stuConsumeTypeRDD = consumeDataAllDF.rdd.map(getLineData)

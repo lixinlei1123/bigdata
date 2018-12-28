@@ -8,7 +8,9 @@ object stuConsumeAddressRank {
   val title = "consumeType,consumeYearMonth,consumeCountByType,countProportion,totleMoneyByType,moneyProportion,rank"
   val titleType = List("String","String","Int","String","Double","String","Long")
 
+  //总消费次数
   var countTotle = 0.0
+  //总消费金额
   var moneyTotle = 0.0
 
   //把每一行数据封装成tuple，方便下面做reduceByKey
@@ -29,15 +31,17 @@ object stuConsumeAddressRank {
 
   def main(args: Array[String]): Unit = {
       val spark = util.createSpark("consumeAddressRank",Constant.MASTER)
-
+      //创建累加器，下面做消费排名用
       val consumeTypeRankAccu = spark.sparkContext.longAccumulator("consumeTypeRank")
       //读取原数据
       val filteredConsumeDataDF = spark.read
         .option("header",true)
         .csv(Constant.CONSUMEPATH + "stuFilteredConsumeData")
 
+      //下面多次使用到当前DF，持久化
       filteredConsumeDataDF.cache()
 
+      //用sql语句查找出总消费次数和消费总金额
       filteredConsumeDataDF.createOrReplaceTempView("consumeView")
       spark.sql("select sum(consumeCount) as consumeCount," +
           "sum(canteenTotleMoney)+sum(superMarketTotleMoney)+" +
@@ -49,6 +53,7 @@ object stuConsumeAddressRank {
         moneyTotle = line(1).toString.toDouble
       }).collect()
 
+      //按消费类别求出每个类别分别的消费次数和总金额，并排序，用累加器写入排名
       val resRDD = filteredConsumeDataDF.rdd
           .map(getConsumeCountData)
           .reduceByKey((x,y)=>{
@@ -66,6 +71,7 @@ object stuConsumeAddressRank {
           Row.merge(line,Row(consumeTypeRankAccu.value.toLong))
         })
 
+      //将得到的数据写入到文件
       util.writeFileByRDD(spark,resRDD,(title,titleType),Constant.CONSUMEPATH + "stuConsumeAddressRank")
       spark.stop()
   }
