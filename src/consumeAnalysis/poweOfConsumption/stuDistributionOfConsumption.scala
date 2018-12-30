@@ -12,9 +12,7 @@ object stuDistributionOfConsumption {
       val spark = util.createSpark("distributionOfConsumption",Constant.MASTER)
       import spark.implicits._
 
-      val consumeDataDF = spark.read
-          .option("header",true)
-          .csv(Constant.CONSUMEPATH + "stuPowerOfConsumption")
+      val consumeDataDF = util.readCSVFile(spark,Constant.CONSUMEPATH + "stuPowerOfConsumption")
       consumeDataDF.createOrReplaceTempView("consumeData")
 
       val filteredDataRDD = spark.sql("select consumeYearMonth,totleMoney," +

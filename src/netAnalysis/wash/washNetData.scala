@@ -5,7 +5,7 @@ import org.apache.spark.sql.{Row, SaveMode}
 
 import scala.io.Source
 
-object washData {
+object washNetData {
 
   //写入文件的标题
   val washNetDataTitle = "userId,sex,startTime,endTime"
@@ -34,7 +34,7 @@ object washData {
     val spark = util.createSpark(Constant.MASTER,"washNetData")
 
     //读取netClean源文件数据生成DataFrame
-    val netDF = spark.read.option("header","true").csv(Constant.NETPATH + "netClean")
+    val netDF = util.readCSVFile(spark,Constant.NETPATH + "netClean")
     //将读到的数据创建成临时表
     netDF.createOrReplaceTempView("net")
     //通过sql语句过滤脏数据，并把过滤之后的数据转成rdd计算

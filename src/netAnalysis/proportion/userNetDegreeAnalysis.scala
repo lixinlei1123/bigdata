@@ -87,10 +87,7 @@ object userNetDegreeAnalysis {
 
   def main(args: Array[String]): Unit = {
       val spark = util.createSpark(Constant.MASTER,"userNetDegreeAnalysis")
-      val dataRdd = spark.read
-          .option("header","true")
-          .csv(Constant.NETPATH + "washedNetData")
-          .rdd
+      val dataRdd = util.readCSVFile(spark,Constant.NETPATH + "washedNetData").rdd
 
       //生成学号，性别，熬夜次数，上网时长，上网年月，学期字段
       val userNetList = dataRdd

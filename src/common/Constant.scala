@@ -10,4 +10,6 @@ object Constant {
     val NETPATH = FILEPATH + "netAnalysis\\"
     //消费行为分析模块文件路径
     val CONSUMEPATH = FILEPATH + "consumeAnalysis\\"
+    //图书馆行为分析模块文件路径
+    val LIBRARYPATH = FILEPATH + "libraryAnalysis\\"
 }

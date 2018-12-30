@@ -99,10 +99,7 @@ object userNetPeakValueAnalysis{
     val spark = util.createSpark(Constant.MASTER,"userNetPeakValueAnalysis")
 
     //读取清洗后的数据并转成rdd
-    val dataRdd = spark.read
-      .option("header","true")
-      .csv(Constant.NETPATH + "washedNetData")
-      .rdd
+    val dataRdd = util.readCSVFile(spark,Constant.NETPATH + "washedNetData").rdd
 
 
     /**

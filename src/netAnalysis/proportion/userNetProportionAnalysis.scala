@@ -65,10 +65,7 @@ object userNetProportionAnalysis {
       val spark = util.createSpark(Constant.MASTER,"userNetProportionAnalysis")
       //声明一个long型的累加器
       val sortByAccu = spark.sparkContext.longAccumulator("sortByAccu")
-      val dataRdd = spark.read
-          .option("header","true")
-          .csv(Constant.NETPATH + "washedNetData")
-          .rdd
+      val dataRdd = util.readCSVFile(spark,Constant.NETPATH + "washedNetData").rdd
 
       //对原始数据进行第一步处理，生成上网时间字段并合并。并做持久化
       val userNetListRdd = dataRdd

@@ -34,9 +34,7 @@ object stuConsumeAddressRank {
       //创建累加器，下面做消费排名用
       val consumeTypeRankAccu = spark.sparkContext.longAccumulator("consumeTypeRank")
       //读取原数据
-      val filteredConsumeDataDF = spark.read
-        .option("header",true)
-        .csv(Constant.CONSUMEPATH + "stuFilteredConsumeData")
+      val filteredConsumeDataDF = util.readCSVFile(spark,Constant.CONSUMEPATH + "stuFilteredConsumeData")
 
       //下面多次使用到当前DF，持久化
       filteredConsumeDataDF.cache()

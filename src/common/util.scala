@@ -5,6 +5,7 @@ import java.text.SimpleDateFormat
 import java.util.Calendar
 
 import org.apache.spark.rdd.RDD
+import org.apache.spark.sql.catalyst.ScalaReflection.Schema
 import org.apache.spark.sql.{DataFrame, Row, SaveMode, SparkSession}
 import org.apache.spark.sql.types._
 
@@ -12,11 +13,18 @@ import org.apache.spark.sql.types._
 object util {
 
   //创建sparkSession(other做预留其他特殊情况)
-  def createSpark(appName:String,master:String,other:(String,String)*) = {
-    SparkSession.builder()
-      .master(Constant.MASTER)
-      .appName("washNetData")
-      .getOrCreate()
+  def createSpark(appName:String,master:String,other:(String,String)*):SparkSession = {
+      SparkSession.builder()
+        .master(Constant.MASTER)
+        .appName("washNetData")
+        .getOrCreate()
+  }
+
+  //读取csv文件
+  def readCSVFile(spark:SparkSession,path:String,header:Boolean=true):DataFrame = {
+      spark.read
+          .option("header",header)
+          .csv(path)
   }
 
   //封装一个类型的map
@@ -28,17 +36,17 @@ object util {
     ("Long",LongType)
   )
   //封装schema
-  def getSchema(args:String,titleType:List[String]=null) = {
+  def getSchema(args:String,titleType:List[String]=null):StructType = {
       var fields:Array[StructField] = null
       if(null == titleType || titleType.length == 0){
-        fields = args.split(",").map(arg=>{
-          StructField(arg, StringType, nullable = true)
-        })
+          fields = args.split(",").map(arg=>{
+            StructField(arg, StringType, nullable = true)
+          })
       }else{
-        val titleAndType = args.split(",").toList.zip(titleType).toArray
-        fields = titleAndType.map(arg=>{
-          StructField(arg._1, typeMap(arg._2), nullable = true)
-        })
+          val titleAndType = args.split(",").toList.zip(titleType).toArray
+          fields = titleAndType.map(arg=>{
+            StructField(arg._1, typeMap(arg._2), nullable = true)
+          })
       }
       StructType(fields)
   }

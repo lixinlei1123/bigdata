@@ -42,9 +42,7 @@ object stuPowerOfConsumption {
         //声明一个命名的累加器
         val consumeAccu = spark.sparkContext.longAccumulator("consumeAccu")
         //读取原数据
-        val consumeDataDF = spark.read
-          .option("header",true)
-          .csv(Constant.CONSUMEPATH + "washedConsumeData")
+        val consumeDataDF = util.readCSVFile(spark,Constant.CONSUMEPATH + "washedConsumeData")
         //创建临时表
         consumeDataDF.createOrReplaceTempView("washedConsume")
         //食堂消费统计DataFrame

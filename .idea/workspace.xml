@@ -2,9 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66b3b76e-478a-4f55-bb6c-5e42fd86ec4c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/libraryAnalysis/wash/washLibraryData.scala" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/common/Constant$.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/common/Constant$.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/common/Constant.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/common/Constant.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/common/util$$anonfun$getSchema$1.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/common/util$$anonfun$getSchema$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/common/util$$anonfun$getSchema$2.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/common/util$$anonfun$getSchema$2.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/common/util$.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/common/util$.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/common/util.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/common/util.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/consumeAnalysis/wash/washData$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/consumeAnalysis/wash/washData.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/peakValue/userNetPeakValueAnalysis$$anonfun$4.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/peakValue/userNetPeakValueAnalysis$$anonfun$4.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/peakValue/userNetPeakValueAnalysis$$anonfun$5.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/peakValue/userNetPeakValueAnalysis$$anonfun$5.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/peakValue/userNetPeakValueAnalysis$$anonfun$6$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/peakValue/userNetPeakValueAnalysis$$anonfun$6$$anonfun$apply$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/peakValue/userNetPeakValueAnalysis$$anonfun$6.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/peakValue/userNetPeakValueAnalysis$$anonfun$6.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/peakValue/userNetPeakValueAnalysis$$anonfun$7.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/peakValue/userNetPeakValueAnalysis$$anonfun$7.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/peakValue/userNetPeakValueAnalysis$.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/peakValue/userNetPeakValueAnalysis$.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetDegreeAnalysis$$anonfun$1.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetDegreeAnalysis$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetDegreeAnalysis$$anonfun$2.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetDegreeAnalysis$$anonfun$2.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetDegreeAnalysis$$anonfun$3.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetDegreeAnalysis$$anonfun$3.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetDegreeAnalysis$$anonfun$4.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetDegreeAnalysis$$anonfun$4.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetDegreeAnalysis$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetDegreeAnalysis$$anonfun$main$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetDegreeAnalysis$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetDegreeAnalysis$$anonfun$main$2.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetDegreeAnalysis$$anonfun$main$3.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetDegreeAnalysis$$anonfun$main$3.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetDegreeAnalysis$$anonfun$main$4.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetDegreeAnalysis$$anonfun$main$4.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetDegreeAnalysis$.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetDegreeAnalysis$.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetProportionAnalysis$$anonfun$1.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetProportionAnalysis$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetProportionAnalysis$$anonfun$2.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetProportionAnalysis$$anonfun$2.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetProportionAnalysis$$anonfun$3.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetProportionAnalysis$$anonfun$3.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetProportionAnalysis$$anonfun$4.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetProportionAnalysis$$anonfun$4.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetProportionAnalysis$.class" afterPath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/proportion/userNetProportionAnalysis$.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/wash/washData$$anonfun$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/wash/washData$$anonfun$createSexMap$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/wash/washData$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/studentBehaviouralAnalysis/netAnalysis/wash/washData.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/common/Constant.scala" afterPath="$PROJECT_DIR$/src/common/Constant.scala" />
+      <change beforePath="$PROJECT_DIR$/src/common/util.scala" afterPath="$PROJECT_DIR$/src/common/util.scala" />
+      <change beforePath="$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuDistributionOfConsumption.scala" afterPath="$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuDistributionOfConsumption.scala" />
       <change beforePath="$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuPowerOfConsumption.scala" afterPath="$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuPowerOfConsumption.scala" />
       <change beforePath="$PROJECT_DIR$/src/consumeAnalysis/stuConsumeAddressRank/stuConsumeAddressRank.scala" afterPath="$PROJECT_DIR$/src/consumeAnalysis/stuConsumeAddressRank/stuConsumeAddressRank.scala" />
+      <change beforePath="$PROJECT_DIR$/src/consumeAnalysis/wash/washData.scala" afterPath="$PROJECT_DIR$/src/consumeAnalysis/wash/washConsumeData.scala" />
+      <change beforePath="$PROJECT_DIR$/src/netAnalysis/peakValue/userNetPeakValueAnalysis.scala" afterPath="$PROJECT_DIR$/src/netAnalysis/peakValue/userNetPeakValueAnalysis.scala" />
+      <change beforePath="$PROJECT_DIR$/src/netAnalysis/proportion/userNetDegreeAnalysis.scala" afterPath="$PROJECT_DIR$/src/netAnalysis/proportion/userNetDegreeAnalysis.scala" />
+      <change beforePath="$PROJECT_DIR$/src/netAnalysis/proportion/userNetProportionAnalysis.scala" afterPath="$PROJECT_DIR$/src/netAnalysis/proportion/userNetProportionAnalysis.scala" />
+      <change beforePath="$PROJECT_DIR$/src/netAnalysis/wash/washData.scala" afterPath="$PROJECT_DIR$/src/netAnalysis/wash/washNetData.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,33 +57,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="stuPowerOfConsumption.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuPowerOfConsumption.scala">
+      <file leaf-file-name="washLibraryData.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/libraryAnalysis/wash/washLibraryData.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="75" column="41" lean-forward="false" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stuConsumeAddressRank.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/stuConsumeAddressRank/stuConsumeAddressRank.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="73" column="19" lean-forward="false" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
-              <folding>
-                <element signature="e#47#77#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stuDistributionOfConsumption.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuDistributionOfConsumption.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="2025">
+              <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -83,18 +102,22 @@
         <option value="$PROJECT_DIR$/src/netAnalysis/userNetPeakValueAnalysis.scala" />
         <option value="$PROJECT_DIR$/src/netAnalysis/userNetProportionAnalysis.scala" />
         <option value="$PROJECT_DIR$/src/consumeAnalysis/washData.scala" />
-        <option value="$PROJECT_DIR$/src/common/Constant.scala" />
         <option value="$PROJECT_DIR$/src/consumeAnalysis/stuPowerOfConsumption1.scala" />
         <option value="$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuPowerOfConsumption1.scala" />
-        <option value="$PROJECT_DIR$/src/common/util.scala" />
-        <option value="$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuDistributionOfConsumption.scala" />
         <option value="$PROJECT_DIR$/src/consumeAnalysis/wash/washData.scala" />
-        <option value="$PROJECT_DIR$/src/netAnalysis/peakValue/userNetPeakValueAnalysis.scala" />
+        <option value="$PROJECT_DIR$/src/netAnalysis/wash/washData.scala" />
+        <option value="$PROJECT_DIR$/src/libraryAnalysis/washLibraryData.scala" />
+        <option value="$PROJECT_DIR$/src/common/Constant.scala" />
+        <option value="$PROJECT_DIR$/src/common/util.scala" />
+        <option value="$PROJECT_DIR$/src/netAnalysis/wash/washNetData.scala" />
         <option value="$PROJECT_DIR$/src/netAnalysis/proportion/userNetDegreeAnalysis.scala" />
         <option value="$PROJECT_DIR$/src/netAnalysis/proportion/userNetProportionAnalysis.scala" />
-        <option value="$PROJECT_DIR$/src/netAnalysis/wash/washData.scala" />
+        <option value="$PROJECT_DIR$/src/netAnalysis/peakValue/userNetPeakValueAnalysis.scala" />
+        <option value="$PROJECT_DIR$/src/consumeAnalysis/wash/washConsumeData.scala" />
         <option value="$PROJECT_DIR$/src/consumeAnalysis/stuConsumeAddressRank/stuConsumeAddressRank.scala" />
         <option value="$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuPowerOfConsumption.scala" />
+        <option value="$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuDistributionOfConsumption.scala" />
+        <option value="$PROJECT_DIR$/src/libraryAnalysis/wash/washLibraryData.scala" />
       </list>
     </option>
   </component>
@@ -105,19 +128,19 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="55" />
-    <option name="y" value="13" />
+    <option name="x" value="-136" />
+    <option name="y" value="328" />
     <option name="width" value="1288" />
-    <option name="height" value="685" />
+    <option name="height" value="968" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
+      <flattenPackages ProjectPane="false" />
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -126,9 +149,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,60 +181,19 @@
               <item name="studentBehaviouralAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentBehaviouralAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="consumeAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="poweOfConsumption" type="462c0819:PsiDirectoryNode" />
+              <item name="libraryAnalysis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studentBehaviouralAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentBehaviouralAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="consumeAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="stuConsumeAddressRank" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studentBehaviouralAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studentBehaviouralAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="consumeAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="libraryAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="wash" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studentBehaviouralAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studentBehaviouralAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="netAnalysis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studentBehaviouralAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studentBehaviouralAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="netAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="peakValue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studentBehaviouralAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studentBehaviouralAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="netAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="proportion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studentBehaviouralAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studentBehaviouralAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="netAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="wash" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studentBehaviouralAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studentBehaviouralAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="studentAnalysis数据" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.stuConsumeAddressRank">
+  <component name="RunManager" selected="Application.washLibraryData">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -326,14 +309,14 @@
       <module name="studentBehaviouralAnalysis" />
       <envs />
     </configuration>
-    <configuration name="userNetProportionAnalysis (1)" type="Application" factoryName="Application" temporary="true">
+    <configuration name="washData" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="netAnalysis.proportion.*" />
+          <option name="PATTERN" value="consumeAnalysis.wash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="netAnalysis.proportion.userNetProportionAnalysis" />
+      <option name="MAIN_CLASS_NAME" value="consumeAnalysis.wash.washConsumeData" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -345,14 +328,14 @@
       <module name="studentBehaviouralAnalysis" />
       <envs />
     </configuration>
-    <configuration name="washData" type="Application" factoryName="Application" temporary="true">
+    <configuration name="washLibraryData" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="consumeAnalysis.wash.*" />
+          <option name="PATTERN" value="libraryAnalysis.wash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="consumeAnalysis.wash.washData" />
+      <option name="MAIN_CLASS_NAME" value="libraryAnalysis.wash.washLibraryData" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -425,19 +408,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.userNetProportionAnalysis (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.washData" />
-      <item index="2" class="java.lang.String" itemvalue="Application.stuPowerOfConsumption" />
-      <item index="3" class="java.lang.String" itemvalue="Application.stuDistributionOfConsumption" />
-      <item index="4" class="java.lang.String" itemvalue="Application.stuConsumeAddressRank" />
+      <item index="0" class="java.lang.String" itemvalue="Application.washData" />
+      <item index="1" class="java.lang.String" itemvalue="Application.stuPowerOfConsumption" />
+      <item index="2" class="java.lang.String" itemvalue="Application.stuDistributionOfConsumption" />
+      <item index="3" class="java.lang.String" itemvalue="Application.stuConsumeAddressRank" />
+      <item index="4" class="java.lang.String" itemvalue="Application.washLibraryData" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.stuConsumeAddressRank" />
-        <item index="1" class="java.lang.String" itemvalue="Application.stuPowerOfConsumption" />
-        <item index="2" class="java.lang.String" itemvalue="Application.stuDistributionOfConsumption" />
-        <item index="3" class="java.lang.String" itemvalue="Application.washData" />
-        <item index="4" class="java.lang.String" itemvalue="Application.userNetProportionAnalysis (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.washLibraryData" />
+        <item index="1" class="java.lang.String" itemvalue="Application.stuConsumeAddressRank" />
+        <item index="2" class="java.lang.String" itemvalue="Application.stuPowerOfConsumption" />
+        <item index="3" class="java.lang.String" itemvalue="Application.stuDistributionOfConsumption" />
+        <item index="4" class="java.lang.String" itemvalue="Application.washData" />
       </list>
     </recent_temporary>
   </component>
@@ -481,7 +464,9 @@
       <workItem from="1545785099075" duration="21283000" />
       <workItem from="1545870911363" duration="9041000" />
       <workItem from="1545957158883" duration="10229000" />
-      <workItem from="1545981445439" duration="2631000" />
+      <workItem from="1545981445439" duration="3396000" />
+      <workItem from="1546043483802" duration="5059000" />
+      <workItem from="1546132731885" duration="6237000" />
     </task>
     <task id="LOCAL-00001" summary="大学生行为分析系统">
       <created>1545286360570</created>
@@ -546,11 +531,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545983758523</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="大学生行为分析系统">
+      <created>1545984087749</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1545984087749</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133321000" />
+    <option name="totallyTimeSpent" value="145382000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -563,7 +555,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -575,11 +566,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10493827" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12222222" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3655303" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27807775" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22732182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -618,9 +609,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19753087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19259259" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3655303" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27321815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22732182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -643,21 +634,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/common/util.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding>
-            <element signature="e#16#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/Constant.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -668,11 +648,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/netAnalysis/wash/washData.scala">
+    <entry file="file://$PROJECT_DIR$/src/netAnalysis/wash/washNetData.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,9 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1040">
           <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-          <folding>
-            <element signature="e#16#49#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,15 +673,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/netAnalysis/wash/washData.scala">
+    <entry file="file://$PROJECT_DIR$/src/netAnalysis/wash/washNetData.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="33" column="74" lean-forward="true" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,9 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding>
-            <element signature="e#16#49#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,7 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,19 +704,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/netAnalysis/wash/washData.scala">
+    <entry file="file://$PROJECT_DIR$/src/netAnalysis/wash/washNetData.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/netAnalysis/wash/washData.scala">
+    <entry file="file://$PROJECT_DIR$/src/netAnalysis/wash/washNetData.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1716">
           <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,11 +732,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/netAnalysis/wash/washData.scala">
+    <entry file="file://$PROJECT_DIR$/src/netAnalysis/wash/washNetData.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1716">
           <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,7 +753,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/wash/washData.scala">
+    <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/wash/washConsumeData.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2080">
           <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="22" />
@@ -801,11 +768,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/netAnalysis/wash/washData.scala">
+    <entry file="file://$PROJECT_DIR$/src/netAnalysis/wash/washNetData.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,14 +826,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/createconsumeaddresscode.scala" />
-    <entry file="file://$PROJECT_DIR$/src/common/Constant.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/studentBehaviouralAnalysis.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -904,57 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/util.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="58" column="20" lean-forward="false" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-          <folding>
-            <element signature="e#16#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/wash/washData.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="83" column="24" lean-forward="false" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/netAnalysis/peakValue/userNetPeakValueAnalysis.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/netAnalysis/proportion/userNetDegreeAnalysis.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="114" column="26" lean-forward="false" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/netAnalysis/proportion/userNetProportionAnalysis.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="111" column="26" lean-forward="false" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/netAnalysis/wash/washData.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,32 +869,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Constant.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/util.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3060">
+          <caret line="38" column="67" lean-forward="false" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/netAnalysis/wash/washNetData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="36" column="69" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/netAnalysis/proportion/userNetProportionAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="67" column="78" lean-forward="false" selection-start-line="67" selection-start-column="78" selection-end-line="67" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/netAnalysis/proportion/userNetDegreeAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="89" column="20" lean-forward="false" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/netAnalysis/peakValue/userNetPeakValueAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="101" column="80" lean-forward="false" selection-start-line="101" selection-start-column="80" selection-end-line="101" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/wash/washConsumeData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="68" column="20" lean-forward="true" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/stuConsumeAddressRank/stuConsumeAddressRank.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="73" column="19" lean-forward="false" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
-          <folding>
-            <element signature="e#47#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuDistributionOfConsumption.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="105" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuPowerOfConsumption.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="75" column="41" lean-forward="false" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+        <state relative-caret-position="315">
+          <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/consumeAnalysis/poweOfConsumption/stuDistributionOfConsumption.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libraryAnalysis/wash/washLibraryData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
           <folding />
         </state>
       </provider>

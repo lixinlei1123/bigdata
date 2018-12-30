@@ -7,7 +7,7 @@ import org.apache.spark.sql.{Row, SaveMode, SparkSession}
 
 import scala.io.Source
 
-object washData {
+object washConsumeData {
 
   val consumeWashFile = "userId,sex,consumeAddress,consumeType,consumeYearMonth,makeCardDate,money"
   val consumeWashFileTitleType = List("String","String","String","String","String","String","Double")
@@ -66,9 +66,7 @@ object washData {
     //启动spark
     val spark = util.createSpark(Constant.MASTER,"washConsumeData")
     //读取消费信息数据并转成rdd
-    val consumeDF = spark.read
-      .option("header","true")
-      .csv(Constant.CONSUMEPATH + "consume")
+    val consumeDF = util.readCSVFile(spark,Constant.CONSUMEPATH + "consume")
     consumeDF.createOrReplaceTempView("consume")
 
     //过滤掉脏数据(为空的,钱数不符合规律的,消费日期早于办卡日期的)，并转成rdd
