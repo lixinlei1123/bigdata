@@ -63,7 +63,7 @@ object util {
     val schema = getSchema(schemaInfo._1,schemaInfo._2)
     //写入文件
     spark.createDataFrame(resRDD,schema).write
-      .option("header",true)
+      .option("header",header)
       .mode(saveMode)
       .csv(savePath)
   }
